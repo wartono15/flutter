@@ -6,7 +6,7 @@ class ApiService {
   // Ganti sesuai environment
   // Android emulator: 10.0.2.2
   // Real device: gunakan IP mesin host, mis. http://192.168.x.x/flutter_api/
-  static const String baseUrl = "http://10.0.2.2/flutter_api/";
+  static const String baseUrl = "http://192.168.198.132/flutter_api/";
 
   // Insert user (multipart if ada image)
   static Future<bool> addUser(Map<String, String> fields, File? image) async {
